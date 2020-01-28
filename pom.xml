@@ -41,6 +41,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
+                    <fork>true</fork>
                     <requiresUnpack>
                         <dependency>
                             <groupId>org.jruby</groupId>
